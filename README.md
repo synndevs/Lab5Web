@@ -1,3 +1,14 @@
+# Praktikum 5 : HTML Lanjutan - Pemrograman Web
+
+Repository ini dibuat untuk menyelesaikan tugas Praktikum 5 Pemrograman Web.  
+  
+Nama : Fachmi Amrullah 
+NIM : 312510246
+Kelas : I251B  
+Mata Kuliah : Pemrograman Web  
+
+
+
 <img width="206" height="111" alt="Screenshot 2026-10-19 133055" src="https://github.com/user-attachments/assets/6fe97080-03cf-45a1-abd3-ea515c8d5c17" />
 
 <img width="807" height="342" alt="Screenshot 2026-10-19 133905" src="https://github.com/user-attachments/assets/1c36af07-bb8f-4b81-94ec-329277a8aefd" />
