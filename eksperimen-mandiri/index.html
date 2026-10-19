@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bagian G - Eksperimen Mandiri</title>
+</head>
+<body>
+    <h2>1. Operasi Aritmetika</h2>
+    <p>Masukkan dua bilangan untuk menghitung operasi aritmetika.</p>
+    <button type="button" onclick="operasiDasar()">Mulai Operasi Aritmetika</button>
+    <p id="hasilOperasi"></p>
+
+    <h2>7. Tabel Perkalian 7</h2>
+    <button type="button" onclick="tabelPerkalian()">Tampilkan Tabel Perkalian</button>
+    <pre id="hasilPerkalian"></pre>
+
+    <h2>8. Pengecekan Bilangan Genap</h2>
+    <label for="angkaGenap">Masukkan angka:</label>
+    <input type="number" id="angkaGenap" step="1">
+    <button type="button" onclick="periksaGenap()">Periksa</button>
+    <p id="hasilGenap"></p>
+
+    <h2>9. Validasi Form Mahasiswa</h2>
+    <form id="formMahasiswa">
+        <label for="nama">Nama:</label>
+        <input type="text" id="nama">
+        <br><br>
+
+        <label for="nilai">Nilai (0-100):</label>
+        <input type="number" id="nilai" min="0" max="100" step="any">
+        <br><br>
+
+        <button type="submit">Kirim Data</button>
+    </form>
+    <p id="hasilForm"></p>
+
+    <h2>10. Daftar Menu Makanan</h2>
+    <p>Pilih menu yang ingin dibeli:</p>
+
+    <label>
+        <input type="checkbox" class="menu" value="5000">
+        Ayam Goreng - Rp5.000
+    </label>
+    <br>
+
+    <label>
+        <input type="checkbox" class="menu" value="500">
+        Tempe - Rp500
+    </label>
+    <br>
+
+    <label>
+        <input type="checkbox" class="menu" value="2500">
+        Telur Dadar - Rp2.500
+    </label>
+    <br>
+
+    <label>
+        <input type="checkbox" class="menu" value="4000">
+        Nasi Putih - Rp4.000
+    </label>
+    <br>
+
+    <label>
+        <input type="checkbox" class="menu" value="3000">
+        Es Teh - Rp3.000
+    </label>
+
+    <h3>Total Harga: Rp<span id="total">0</span></h3>
+
+    <h2>11. Menyembunyikan dan Menampilkan Elemen</h2>
+    <p id="informasi">
+        Ini adalah informasi mahasiswa.
+        <br>
+        Program Studi: Teknik Informatika
+    </p>
+
+    <button type="button" onclick="toggleInformasi()">
+        Sembunyikan / Tampilkan Informasi
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
